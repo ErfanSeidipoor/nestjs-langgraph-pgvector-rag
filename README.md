@@ -83,6 +83,7 @@ npm install
    Create a `.env` file in the root directory and add the following:
 
 ```env
+OPENAI_API_KEY=<your-key>
 POSTGRES_DB_HOST=<your-postgres-host>
 POSTGRES_DB_PORT=<your-postgres-port>
 POSTGRES_DB_USERNAME=<your-postgres-username>
