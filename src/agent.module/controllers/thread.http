@@ -1,0 +1,47 @@
+
+POST http://localhost:3000/thread HTTP/1.1
+content-type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNhbXBsZSIsImlkIjoiNGFiNTRkZTQtODhhZC00YTNmLWJkOTUtMmUwNzljNmRkZDJmIiwiaWF0IjoxNzQ2NDMyNjU2LCJleHAiOjE3NDY0Njg2NTZ9.EXCf8DHf3zzYiUxk7gsR_6ZGfjWG3FoEpTelvQwwaqc
+
+{
+    "title": "manunited6",
+    "prompt": "hi"
+}
+
+###
+POST http://localhost:3000/thread/43b8cd53-cfc3-4990-ba75-25fd54473528/continue HTTP/1.1
+content-type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNhbXBsZSIsImlkIjoiNGFiNTRkZTQtODhhZC00YTNmLWJkOTUtMmUwNzljNmRkZDJmIiwiaWF0IjoxNzQ2NDMyNjU2LCJleHAiOjE3NDY0Njg2NTZ9.EXCf8DHf3zzYiUxk7gsR_6ZGfjWG3FoEpTelvQwwaqc
+
+{
+    "prompt": "do you like football?"
+}
+
+###
+GET  http://localhost:3000/thread HTTP/1.1
+content-type: application/json
+Authorization:  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNhbXBsZSIsImlkIjoiNGFiNTRkZTQtODhhZC00YTNmLWJkOTUtMmUwNzljNmRkZDJmIiwiaWF0IjoxNzQ2NDMyNjU2LCJleHAiOjE3NDY0Njg2NTZ9.EXCf8DHf3zzYiUxk7gsR_6ZGfjWG3FoEpTelvQwwaqc
+
+
+###
+GET  http://localhost:3000/thread/43b8cd53-cfc3-4990-ba75-25fd54473528 HTTP/1.1
+content-type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNhbXBsZSIsImlkIjoiNGFiNTRkZTQtODhhZC00YTNmLWJkOTUtMmUwNzljNmRkZDJmIiwiaWF0IjoxNzQ2NDMyNjU2LCJleHAiOjE3NDY0Njg2NTZ9.EXCf8DHf3zzYiUxk7gsR_6ZGfjWG3FoEpTelvQwwaqc
+
+
+###
+GET  http://localhost:3000/thread/43b8cd53-cfc3-4990-ba75-25fd54473528/message HTTP/1.1
+content-type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNhbXBsZSIsImlkIjoiNGFiNTRkZTQtODhhZC00YTNmLWJkOTUtMmUwNzljNmRkZDJmIiwiaWF0IjoxNzQ2NDMyNjU2LCJleHAiOjE3NDY0Njg2NTZ9.EXCf8DHf3zzYiUxk7gsR_6ZGfjWG3FoEpTelvQwwaqc
+
+
+
+###
+GET  http://localhost:3000/thread/7487b2b5-f9a9-4a43-8ab2-05d65f151ee7/message HTTP/1.1
+content-type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImVyZmFuIiwiaWQiOiJhYzVjMTVkYi01ZjFlLTQ2MDgtOGZlZC1hODA0M2UwYjE4YWUiLCJpYXQiOjE3NDU5MTY4NTksImV4cCI6MTc0NTk1Mjg1OX0.2u_LzbwFzfTvLRUma63NZbTWKDmq7goYKWvNtSyQbFA
+
+
+###
+POST http://localhost:3000/thread/print HTTP/1.1
+content-type: application/json

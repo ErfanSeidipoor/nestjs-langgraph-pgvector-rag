@@ -1,0 +1,22 @@
+###
+POST http://localhost:3000/user/signin HTTP/1.1
+content-type: application/json
+
+{
+    "username": "sample",
+    "password": "password"
+}
+
+###
+POST http://localhost:3000/user/signup HTTP/1.1
+content-type: application/json
+
+{
+    "username": "sample",
+    "password": "password"
+}
+
+###
+GET http://localhost:3000/user/profile HTTP/1.1
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNhbXBsZSIsImlkIjoiNGFiNTRkZTQtODhhZC00YTNmLWJkOTUtMmUwNzljNmRkZDJmIiwiaWF0IjoxNzQ2MzUwNTk5LCJleHAiOjE3NDYzODY1OTl9.bzG2xN9wyV-tv74UgEpqz2CrU78yofr71fv1Q5gRaS8
+content-type: application/json
